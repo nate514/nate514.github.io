@@ -1,0 +1,36 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.btn-group {
+	padding-top: 10px;
+}
+.container {
+	font-size: 14px;
+}
+
+#major {
+	background-color: red;
+}
+#career {
+	background-color: blue;
+}
+#work {
+	background-color: green;
+}
+#hobbies {
+	background-color: yellow;
+}
+#skills {
+	background-color: purple;
+}
+
+#contact {
+	background-color: orange
+}
+#social-media {
+	background-color: blue;
+}
