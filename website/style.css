@@ -34,3 +34,225 @@ body {
 #social-media {
 	background-color: blue;
 }
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:light');
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+input.transparent-input {
+  border:none !important;
+}
+
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0);
+  border:none;
+}
+
+label {
+  color: #A3A3A3;
+}
+
+h4 {
+  color: #737373;
+}
+
+.btn-primary {
+  background: #FF9400;
+  border: #FF9400;
+  margin: 0 auto 50px auto;
+  width: 200px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-group input{
+  background-color:rgba(0,0,0,0) !important;
+  border:none !important;
+  box-shadow:none !important;
+}
+
+@media (min-width: 992px) {
+  .nav-users {
+    position: fixed;
+  }
+}
+
+.social-account-container {
+  display: inline-block;
+  position: relative;
+}
+
+.btn-remove-account {
+  top: 10px;
+  left: 80px;
+  position: absolute;
+}
+
+.btn-file {
+  position: absolute;
+  bottom:0;
+  right: 0;
+  overflow: hidden;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+}
+
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=100);
+  opacity: 1.0;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.image-container {
+    width:165px;
+    height:160px;
+    display:inline-block;
+    position:relative;
+}
+.user-profile-picture {
+  min-height: 150px;
+  max-height: 150px;
+}
+.form-horizontal .control-label {
+  text-align: left;
+}
+.panel-picture {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px !important;
+}
+.panel {
+  margin-top: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.panel-car {
+  margin-top: 0px !important;
+  max-width: 100%;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+ 
+}
+.profile-info-container a{
+  color: #FF9400;
+}
+.placement {
+  position: absolute;
+/*  padding-left: 50% !important;*/
+  padding-top: 600px !important;
+}
+
+
+
+/*============MODAL AND CAROUSEL FOR BECOME A TUTOR===============*/
+.round {
+    border-radius: 34px; 
+-moz-border-radius: 34px; 
+-webkit-border-radius: 34px;
+}
+.btn-warning {
+  background: #FF9400;
+  border: #FF9400;
+  margin-top: 20px ;
+  margin-bottom: 30px ;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 170px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.btn-warning:hover,
+.btn-warning:focus {
+   background: #FF9400;
+  border: #3A4347;
+}
+.carousel-indicators {
+  pointer-events: none;
+  bottom:-60px;
+  margin-bottom: 150px;
+}
+.carousel-indicators li {
+  width: 16px;
+  height: 16px;
+  margin: 8px;
+  border: 3px solid #fff;
+}
+
+.carousel-indicators .active {
+  width: 16px;
+  height: 16px;
+  margin: 8px;
+ 
+
+}
+.modelback {
+  padding-top: 60px;
+  background-color: #3A4347;
+}
+.item {
+  height: 600px;
+}
+.item img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px !important;
+  padding-bottom: 10px;
+  max-height: 250px;
+
+}
+.titleback {
+  margin-top: 0px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../core/client/img/icon/Geometric.png") !important;
+  font-weight: bold;
+  color: #fff;
+}
+.titleback-input {
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+}
+.inputInfo {
+  max-width: 100%;
+}
+/*.modal-dialog{
+  width:70%;
+}*/
+.bolded {
+  font-size: 30px;
+}
+.right.carousel-control, .left.carousel-control {
+    display: none;
+
+  /*might need this for IE9  background: none !important; 
+filter: progid:none !important; */
+}
+.buttontext{
+  font-size:20px;
+  font-weight: bold;
+}
+.bottom {
+  color: #FF9400;
+  font-weight: bold;
+}
+.container-input{
+  max-width: 100%;
+}
+.input-back{
+  margin-right: 30px ;
+  margin-left: 30px ;
+    padding-top: 40px !important;
+    padding-bottom: 10px;
+}
